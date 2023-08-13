@@ -1,0 +1,161 @@
+body {
+  
+  --color-primary: #89c82e;
+  --color-secondary: #700064;
+  --color-error: #cc3333;
+  --color-success: #4bb544;
+  --border-radius: 4px;
+  
+  margin: 0px;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: 0;
+  background-size: cover;
+  
+}
+    
+.container{
+  width: 400px;
+  max-width: 400px;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  background: #89c82e;
+  
+}
+
+.form--hidden{
+  display: none;
+}
+
+.form >*:first-child {
+  margin-top 0;
+}
+
+.form >*:last-child {
+  margin-bottom 0;
+}
+
+
+
+.form_title{
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form_message{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form_message-error{
+  color:var(--color-error)
+}
+.form_message-success{
+  color:var(--color-sucess)
+}
+
+.form_InputBoxes{
+  margin-bottom: 1rem;
+  
+}
+
+.form_Name{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: 1px solid;
+  border-color: var();
+  
+}
+
+.form_Email{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: 1px solid;
+  
+}
+
+.form_Card{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  border: 1px solid;
+  
+}
+
+.form_Submit{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  background: var(--color-secondary);
+ 
+}
+
+
+.form__input--error{
+ color: var(--color-error);
+  border-color: var(--color-error);
+  
+}
+
+.form__inputEmail--error{
+ color: var(--color-error);
+  border-color: var(--color-error);
+  
+}
+
+.form__inputCard--error{
+ color: var(--color-error);
+  border-color: var(--color-error);
+  
+}
+
+
+.Form_NameError{
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color:black;
+}
+
+.Form_EmailError{
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color:black;
+}
+
+.Form_CardError{
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
